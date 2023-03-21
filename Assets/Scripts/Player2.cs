@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player2 : MonoBehaviour
 {
-    public KeyCode moveUp = KeyCode.W;
-    public KeyCode moveDown = KeyCode.S;
+    public KeyCode moveUp = KeyCode.UpArrow;
+    public KeyCode moveDown = KeyCode.DownArrow;
     public float speed = 10.0f;
     public float boundY = 2.25f;
     private Rigidbody2D rb2d;
